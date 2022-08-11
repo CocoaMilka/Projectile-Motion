@@ -1,0 +1,13 @@
+body
+{
+    background: rgba(147,80,81,1);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#inputs
+{
+    align-items: center;
+    padding: 10px;
+    font-size: large;
+}

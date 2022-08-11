@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projectile Motion</title>
+</head>
+<body>
+    <h1>Projectile Motion</h1>
+    <p>By CocoaMilka</p>
+
+    <canvas id="simulation" width="1000" height="400"></canvas>
+    <script src="index.js"></script>
+
+    <br></br>
+
+    <div id="inputs">
+        <label for="quantity">Magnitude</label>
+        <input type="number" id="magnitude" name="quantity" min="0" max="10">
+    
+        <label for="quantity" style="padding-left: 50px">Launch Angle</label>
+        <input type="number" id="angle" name="quantity" min="0" max="90">
+
+        <br></br>
+
+        <button type="button" onclick="runSimulation()">Run Simulation</button>
+        <button type="button" onclick="stopSimulation()">Pause/Play Simulation</button>
+        <button type="button" onclick="restartSimulation()">Restart Simulation</button>
+    </div>
+
+    <p>Input a magnitude and angle to launch the projectile at. If the projectile begins to move too quickly, pause the simulation then press restart.</p>
+</body>
+</html>
